@@ -38,7 +38,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
-group :development, :test do
+group :production do
   gem 'pg'
 end
 group :development do
